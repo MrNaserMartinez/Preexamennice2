@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="umg.lab.formsejes.eje3">
+  <grid id="27dc6" binding="eje3ni" layout-manager="GridLayoutManager" row-count="15" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="897" height="514"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="923b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="15" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="EQUIPOS DE LO MÁS PRESTIGIOSO O SEA LA CHAMPIONS "/>
+        </properties>
+      </component>
+      <hspacer id="de588">
+        <constraints>
+          <grid row="0" column="15" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="78d62">
+        <constraints>
+          <grid row="1" column="14" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2c6ef" class="javax.swing.JLabel" binding="lbl2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="id del equipo"/>
+        </properties>
+      </component>
+      <component id="95390" class="javax.swing.JLabel" binding="lbl3">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="nombre"/>
+        </properties>
+      </component>
+      <component id="35754" class="javax.swing.JLabel" binding="lbl4">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="país"/>
+        </properties>
+      </component>
+      <component id="82f0c" class="javax.swing.JLabel" binding="lbl5">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ciudad"/>
+        </properties>
+      </component>
+      <component id="76ecf" class="javax.swing.JLabel" binding="lbl6">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="estadio"/>
+        </properties>
+      </component>
+      <component id="541d3" class="javax.swing.JLabel" binding="lbl7">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="fundacion"/>
+        </properties>
+      </component>
+      <component id="27127" class="javax.swing.JLabel" binding="lbl8">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="entrenador"/>
+        </properties>
+      </component>
+      <component id="37f36" class="javax.swing.JLabel" binding="lbl9">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="web oficial"/>
+        </properties>
+      </component>
+      <component id="561cb" class="javax.swing.JLabel" binding="lbl10">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="facebook"/>
+        </properties>
+      </component>
+      <component id="f5f78" class="javax.swing.JLabel" binding="lbl11">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="twitter"/>
+        </properties>
+      </component>
+      <component id="13392" class="javax.swing.JLabel" binding="lbl12">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="instagram"/>
+        </properties>
+      </component>
+      <component id="aa5c0" class="javax.swing.JLabel" binding="lbl13">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="patrocinador princinpal"/>
+        </properties>
+      </component>
+      <component id="da8cf" class="javax.swing.JLabel" binding="lbl14">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="creado en"/>
+        </properties>
+      </component>
+      <component id="7a50f" class="javax.swing.JTextField" binding="textFieldid">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="abd7f" class="javax.swing.JTextField" binding="textFieldnombre">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="22edb" class="javax.swing.JTextField" binding="textFieldpais">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ead2b" class="javax.swing.JTextField" binding="textFieldciudad">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="10" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6703e" class="javax.swing.JTextField" binding="textFieldestadio">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="9" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="613d1" class="javax.swing.JTextField" binding="textFieldfundacion">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8fd24" class="javax.swing.JTextField" binding="textFieldentrenador">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d9165" class="javax.swing.JTextField" binding="textFieldweb">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ce7bd" class="javax.swing.JTextField" binding="textFieldface">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="21de5" class="javax.swing.JTextField" binding="textFieldtwitter">
+        <constraints>
+          <grid row="10" column="10" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3094e" class="javax.swing.JTextField" binding="textFieldig">
+        <constraints>
+          <grid row="11" column="11" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="68478" class="javax.swing.JTextField" binding="textFieldpatro">
+        <constraints>
+          <grid row="12" column="12" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ad4fc" class="javax.swing.JTextField" binding="textFieldcreado">
+        <constraints>
+          <grid row="13" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3b07f" class="javax.swing.JButton" binding="bcrear">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Crear"/>
+        </properties>
+      </component>
+      <component id="185b5" class="javax.swing.JButton" binding="bactualizar">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Actualizar"/>
+        </properties>
+      </component>
+      <component id="ca681" class="javax.swing.JButton" binding="bbuscar">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+      <component id="8b9b9" class="javax.swing.JButton" binding="beliminar">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Eliminar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
