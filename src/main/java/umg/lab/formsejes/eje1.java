@@ -32,7 +32,47 @@ public class eje1 {
     private eje1Service datosService;
 
     public eje1() {
-        this.datosService = new eje1Service(); // Instanciando el servicio
+        // Inicialización de los componentes
+        pepe = new JPanel();
+        pepe.setLayout(new GridLayout(0, 2)); // Usa GridLayout o el diseño que prefieras
+
+        lbl1 = new JLabel("Código:");
+        lbl2 = new JLabel("Nombre:");
+        lbl3 = new JLabel("Apellido:");
+        lbl4 = new JLabel("Departamento:");
+        lbl5 = new JLabel("Fecha:");
+        lbl6 = new JLabel(""); // Puedes usar para mensajes adicionales si lo deseas
+        lbl7 = new JLabel(""); // Puedes usar para mensajes adicionales si lo deseas
+
+        textFieldcodigo = new JTextField(20);
+        textFieldnombre = new JTextField(20);
+        textFieldapellido = new JTextField(20);
+        textFielddepa = new JTextField(20);
+        textFieldfecha = new JTextField(20);
+
+        bgrabar = new JButton("Grabar");
+        bbuscar = new JButton("Buscar");
+        actualizarButton = new JButton("Actualizar");
+        buttonborrar = new JButton("Borrar");
+
+        // Añadir componentes al panel
+        pepe.add(lbl1);
+        pepe.add(textFieldcodigo);
+        pepe.add(lbl2);
+        pepe.add(textFieldnombre);
+        pepe.add(lbl3);
+        pepe.add(textFieldapellido);
+        pepe.add(lbl4);
+        pepe.add(textFielddepa);
+        pepe.add(lbl5);
+        pepe.add(textFieldfecha);
+        pepe.add(bgrabar);
+        pepe.add(bbuscar);
+        pepe.add(actualizarButton);
+        pepe.add(buttonborrar);
+
+        // Instanciando el servicio
+        this.datosService = new eje1Service();
 
         // Evento del botón 'Grabar' para insertar datos
         bgrabar.addActionListener(new ActionListener() {
@@ -138,14 +178,18 @@ public class eje1 {
         textFieldfecha.setText("");
     }
 
+    public JPanel getPanel() {
+        return pepe; // Devolver el panel principal
+    }
+
     public static void main(String[] args) {
         JFrame frame = new JFrame("eje1.form");
-        frame.setContentPane(new eje1().pepe);
+        eje1 form = new eje1();
+        frame.setContentPane(form.getPanel()); // Usar el método getPanel() para obtener el panel raíz
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
     }
 }
-
 
 
